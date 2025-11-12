@@ -1,5 +1,7 @@
+/* Database name */
 Database name = "around_the_plate"
 
+/* SQL to create accounts table */
 CREATE TABLE accounts (
 	id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,
     username varchar(64) NOT NULL,
