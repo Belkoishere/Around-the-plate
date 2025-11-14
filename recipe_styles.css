@@ -32,18 +32,36 @@ html {
     margin-right: auto;
 }
 
+.recipes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
 .recipe-card {
     background-color: #D2C1B6;
     width: 20vw;
-    height: 20vh;
     border-radius: 25px;
     text-align: center;
-   
+    margin: 1vw;
 }
-.recipe-card h3{
-    pardding-top:50%;
+
+.recipe-card h3 {
+    font-size: 200%;
+    margin: 2%;
 }
-.card-image{
+
+.recipe-card,
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: black;
+    text-decoration: solid;
+}
+
+.card-image {
+    border-radius: 25px;
     width: 18vw;
-    height: 18vh;
 }

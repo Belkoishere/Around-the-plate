@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Around the plate</title>
     <link rel="stylesheet" href="recipe_styles.css">
-
-
 </head>
 
 <body>
@@ -21,12 +19,8 @@
         </div>
 
         <div class="recipes-container">
-            <h2>View all recipes</h2>
             <div class="recipes">
-                <div class="recipe-card">
-                    <h3>Pizza</h3>
-                    <img class="card-image" src="images/pizza.jpg" alt="">
-                </div>
+                
             </div>
         </div>
     </div>
