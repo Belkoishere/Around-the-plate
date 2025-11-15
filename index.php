@@ -14,7 +14,7 @@ if (isset($_SESSION['account_loggedin'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Log in</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login_styles.css">
 </head>
 <body>
     <div class="login">
