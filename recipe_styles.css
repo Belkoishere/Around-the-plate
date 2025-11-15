@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.search {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    background-color: #456882;
+    width: 80vw;
+    height: 25vh;
+    border-radius: 25px;
+}
+
+.search-title {
+    padding-top: 1%;
+    padding-left: 4%;
+    font-size: 4em;
+    font-weight: 500;
+}
+
+.recipes-container {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.recipes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.recipe-card {
+    background-color: #D2C1B6;
+    width: 20vw;
+    border-radius: 25px;
+    text-align: center;
+    margin: 1vw;
+}
+
+.recipe-card h3 {
+    font-size: 200%;
+    margin: 2%;
+}
+
+.recipe-card,
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: black;
+    text-decoration: solid;
+}
+
+.card-image {
+    border-radius: 25px;
+    width: 18vw;
+}
